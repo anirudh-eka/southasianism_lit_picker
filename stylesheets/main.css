@@ -10,6 +10,11 @@
   transition: color 0.5s;
   -webkit-transition: color 0.5s; }
 
+p {
+  margin: 1em 0;
+  line-height: 1.635em;
+  font-size: 1.1em; }
+
 body {
   font-size: 1.4em;
   color: #333;
@@ -17,7 +22,8 @@ body {
   overflow: initial;
   overflow-x: hidden;
   text-align: left;
-  width: 100%; }
+  width: 100%;
+  font-family: Cardo, Georgia, Cambria, "Times New Roman", Times, serif; }
   @media screen and (max-width: 1024px) {
     body {
       font-size: 1.4em; } }
@@ -37,7 +43,10 @@ body {
         padding-right: 4%; } }
   body h1 {
     text-align: center;
-    font-size: 2em; }
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-weight: 300; }
     body h1 a {
       text-decoration: none;
       color: #45A39A; }
