@@ -1,0 +1,12 @@
+#hue-grad {
+  border: 0.1px solid gray;
+  height: 350px;
+  width: 350px;
+  background: linear-gradient(to right, green, #ff8000); }
+
+#sat-grad {
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
