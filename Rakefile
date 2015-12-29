@@ -9,6 +9,7 @@ task :compile, [:option] do |t, args|
   elsif !option.empty?
     raise "#{option} option Invalid"
   else
-    sh %{ sass stylesheets/*.sass stylesheets/main.css }
+    sh %{ sass stylesheets/main.sass stylesheets/main.css }
+    sh %{ rm stylesheets/*.map }
   end
 end

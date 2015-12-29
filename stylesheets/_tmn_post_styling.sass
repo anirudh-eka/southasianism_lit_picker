@@ -1,0 +1,84 @@
+$beige: #FECFA1
+$teal: #45A39A
+$black: #333
+$gray: #828986
+$break-medium: 1024px
+$break-small: 500px
+
+.post
+  a
+    text-decoration: none
+    color: $black
+    border-bottom: 1px dashed $black
+    transition: color .5s
+    -webkit-transition: color .5s
+
+  a:hover
+    color: $gray
+    border-bottom: 1px dashed $gray
+    transition: color .5s
+    -webkit-transition: color .5s
+
+body
+  font-size: 1.4em
+  
+  @media screen and (max-width: $break-medium)
+    font-size: 1.4em
+
+  @media screen and (max-width: $break-small)
+    font-size: 1em
+
+  color: #333
+  background-color: white
+  overflow: initial
+  overflow-x: hidden
+  text-align: left
+  width: 100%
+
+  @media screen and (max-width: $break-medium)
+    width: 100%
+
+  #container
+    width: 39em
+    margin: auto
+    
+    @media screen and (max-width: $break-medium)
+      width: 90%
+      padding-left: 4%
+      padding-right: 4%
+
+  h1
+    text-align: center
+    font-size: 2em
+
+    a
+      text-decoration: none
+      color: #45A39A
+
+
+  h2
+    text-align: center
+
+  .meta
+    color: #828986
+    text-align: center
+    display: block
+
+  .read-more
+    text-decoration: none
+    display: inline-block
+    padding: 0.3em
+    border-radius: 0.2em
+    background-color: $teal
+    color: white
+    transition: color 1s
+    -webkit-transition: color 1s
+
+  .read-more:hover
+    color: $beige
+    transition: color 1s
+    -webkit-transition: color 1s
+
+  .read-more-container
+    text-align: right
+    margin-bottom: 2em
