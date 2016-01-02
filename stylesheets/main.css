@@ -85,6 +85,25 @@ body {
   background: linear-gradient(to right, green, #ff8000);
   margin: auto; }
 
+#hue-grad:before {
+  content: "Islam";
+  position: relative;
+  display: inline-block;
+  top: 100%;
+  width: 10%;
+  color: green;
+  height: 0; }
+
+#hue-grad:after {
+  content: "Hinduism";
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  top: 0%;
+  width: 100%;
+  height: 0;
+  color: #ff8000; }
+
 #sat-grad {
   background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
   height: 100%;
@@ -92,5 +111,20 @@ body {
 
 #color-picker-container {
   padding: 2em; }
+
+#color-picker-canvas-container {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: auto; }
+
+#color-picker-canvas-container:after {
+  content: "Hue";
+  position: relative;
+  display: inline-block;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #828986; }
 
 /*# sourceMappingURL=main.css.map */

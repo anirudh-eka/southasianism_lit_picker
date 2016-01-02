@@ -3,8 +3,10 @@ On paper Hinduism and Islam couldn't be more different. The former boasts a pant
 The color picker below is a model to explore the meshing between these two religions at different layers. Click on various points in the color picker to discover quotes from scholars, poets, mystics, and religious texts from Islam, Hinduism and the traditions in-between!
 
 <div id="color-picker-container">
-  <div id="hue-grad">
-    <div id="sat-grad">
+  <div id= "color-picker-canvas-container">
+    <div id="hue-grad">
+      <div id="sat-grad">
+      </div>
     </div>
   </div>
 </div>
