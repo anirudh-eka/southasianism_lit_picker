@@ -1,29 +1,29 @@
-.post a {
-  text-decoration: none;
-  color: #333;
-  border-bottom: 1px dashed #333;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s; }
-.post a:hover {
-  color: #828986;
-  border-bottom: 1px dashed #828986;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s; }
-
 p {
   margin: 1em 0;
   line-height: 1.635em;
   font-size: 1.1em; }
 
+h1, h2 {
+  font-weight: 300;
+  text-align: center; }
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-weight: 300; }
+  h1 a {
+    text-decoration: none;
+    color: #45A39A; }
+
 body {
-  font-size: 1.4em;
+  font: 1.4em Cardo, Georgia, Cambria, "Times New Roman", Times, serif;
   color: #333;
   background-color: white;
   overflow: initial;
   overflow-x: hidden;
   text-align: left;
-  width: 100%;
-  font-family: Cardo, Georgia, Cambria, "Times New Roman", Times, serif; }
+  width: 100%; }
   @media screen and (max-width: 1024px) {
     body {
       font-size: 1.4em; } }
@@ -41,17 +41,6 @@ body {
         width: 90%;
         padding-left: 4%;
         padding-right: 4%; } }
-  body h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1em;
-    font-family: Open Sans, Helvetica, sans-serif;
-    font-weight: 300; }
-    body h1 a {
-      text-decoration: none;
-      color: #45A39A; }
-  body h2 {
-    text-align: center; }
   body .meta {
     color: #828986;
     text-align: center;
@@ -72,6 +61,22 @@ body {
   body .read-more-container {
     text-align: right;
     margin-bottom: 2em; }
+
+.post a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px dashed #333;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s; }
+.post a:hover {
+  color: #828986;
+  border-bottom: 1px dashed #828986;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s; }
+.post h2 {
+  font-size: 120%;
+  color: #757C7A;
+  margin: 2.2em 0em; }
 
 #hue-grad {
   border: 0.1px solid gray;

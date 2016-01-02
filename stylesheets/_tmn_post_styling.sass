@@ -1,31 +1,33 @@
+//= require_tree .
 $beige: #FECFA1
 $teal: #45A39A
 $black: #333
 $gray: #828986
+$dark-gray: #757C7A
 $break-medium: 1024px
 $break-small: 500px
-
-.post
-  a
-    text-decoration: none
-    color: $black
-    border-bottom: 1px dashed $black
-    transition: color .5s
-    -webkit-transition: color .5s
-
-  a:hover
-    color: $gray
-    border-bottom: 1px dashed $gray
-    transition: color .5s
-    -webkit-transition: color .5s
 
 p 
   margin: 1em 0
   line-height: 1.635em
   font-size: 1.1em
 
+h1, h2
+  font-weight: 300
+  text-align: center
+
+h1
+  font-size: 2em
+  margin-bottom: 1em
+  font-family: Open Sans,Helvetica,sans-serif
+  font-weight: 300
+
+  a
+    text-decoration: none
+    color: #45A39A
+
 body
-  font-size: 1.4em
+  font: 1.4em Cardo, Georgia, Cambria, 'Times New Roman', Times, serif
   
   @media screen and (max-width: $break-medium)
     font-size: 1.4em
@@ -39,7 +41,6 @@ body
   overflow-x: hidden
   text-align: left
   width: 100%
-  font-family: Cardo,Georgia,Cambria,"Times New Roman",Times,serif
 
   @media screen and (max-width: $break-medium)
     width: 100%
@@ -52,21 +53,6 @@ body
       width: 90%
       padding-left: 4%
       padding-right: 4%
-
-  h1
-    text-align: center
-    font-size: 2em
-    margin-bottom: 1em
-    font-family: Open Sans,Helvetica,sans-serif
-    font-weight: 300
-
-    a
-      text-decoration: none
-      color: #45A39A
-
-
-  h2
-    text-align: center
 
   .meta
     color: #828986
@@ -91,3 +77,22 @@ body
   .read-more-container
     text-align: right
     margin-bottom: 2em
+
+.post
+  a
+    text-decoration: none
+    color: $black
+    border-bottom: 1px dashed $black
+    transition: color .5s
+    -webkit-transition: color .5s
+
+  a:hover
+    color: $gray
+    border-bottom: 1px dashed $gray
+    transition: color .5s
+    -webkit-transition: color .5s
+
+  h2
+    font-size: 120%
+    color: $dark-gray
+    margin: 2.2em 0em  
