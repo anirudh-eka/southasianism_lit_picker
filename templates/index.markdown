@@ -2,12 +2,17 @@ On paper Hinduism and Islam couldn't be more different. The former boasts a pant
 
 The color picker below is a model to explore the meshing between these two religions at different layers. Click on various points in the color picker to discover quotes from scholars, poets, mystics, and religious texts from Islam, Hinduism and the traditions in-between!
 
-<div id="color-picker-container">
-  <div id= "color-picker-canvas-container">
-    <div id="hue-grad">
-      <div id="sat-grad">
+<div class="color-picker-container">
+  <div class="color-picker-canvas-container">
+    <div class="hue-grad">
+      <div class="sat-grad">
       </div>
     </div>
+  </div>
+  <div class="color-picker-info-container">
+  	<p>The <em>saturation</em> level on the verticle axis mesures the philosophical nature of the quotations.</p>
+
+  	<p> Where the saturation is highest, you will notice the text is instructional dictating what rituals followers should perform, what clothes they should wear, and other outward activities. As the saturation declines towards white, the text becomes less dictatorial and more phylosophical engaging the rational mind.</p>
   </div>
 </div>
 
@@ -20,7 +25,7 @@ The *hue* on the horizontal axis measures the religious origin of the quotations
 
 ## Conflict between Hues and between Saturations
 
-The conflict between various Hues, that is between different religious traditions is age old. These conflicts take the form of crusades, persecution, preferential treatment based on religion, and now in modern South Asia as communal violence. It is what has led to the breakup of British India into three countries. In many ways this conflict is well understood.
+The conflict between various Hues, that is between different religious traditions is age old. These conflicts take the form of crusades, persecution, preferential treatment based on religion, and now in modern South Asia as communal violence. It is what has led to the breakup of British India into three countries. This conflict in my opinion is too familiar to need more exploration.
 
 What I find more interesting is the conflict between different Saturations within the same Hue. 
 

@@ -1,64 +1,77 @@
 @import tmn_post_styling
 $light-gray: #A5ADA9
 
-#hue-grad
-  border: 0.1px solid gray
-  height: 350px
-  width: 350px
-  background: linear-gradient(to right, green, rgb(255,128, 0))
-  margin: auto
+.color-picker-container
+  padding: 2em
+  font-family: $serif-font
+  font-weight: 300
 
-#hue-grad:before
-  content: "Islam"
-  position: relative
-  display: inline-block
-  top: 103%
-  width: 10%
-  color: green
-  height: 0
+  .color-picker-canvas-container, .color-picker-info-container
+    display: inline-block
+    width: 48%
 
-#hue-grad:after
-  content: "Hinduism"
-  position: relative
-  display: inline-block
-  text-align: right
-  top: 3%
-  width: 100%
-  height: 0
-  color: rgb(255,128, 0)
+  .color-picker-canvas-container
+    margin-right: 3%
 
-#sat-grad
-  background: linear-gradient(to top, rgba(255, 255, 255, 0), white)
-  height: 100%
-  width: 100%
+  .color-picker-info-container
+    font-size: 0.8em
+    vertical-align: top
 
-#sat-grad:before
-  content: "Contemplative"
-  position: relative
-  display: inline-block
-  top: 0%
-  width: 100%
-  text-align: right
-  right: 103%
-  color: $light-gray
-  height: 0
-
-#sat-grad:after
-  content: "Dogmatic"
-  position: relative
-  display: inline-block
-  top: 93%
-  width: 100%
-  text-align: right
-  right: 103%
-  color: $dark-gray
-  height: 0
-
-#color-picker-container
-  padding: 2em  
-
-#color-picker-canvas-container
+.color-picker-canvas-container
   display: block
+  min-width: 360px
   width: 400px
   height: 400px
-  margin: auto
+
+  .hue-grad
+    border: 0.1px solid gray
+    height: 100%
+    width: 100%
+    background: linear-gradient(to right, green, rgb(255,128, 0))
+    margin: auto
+
+  .hue-grad:before
+    content: "Islam"
+    position: relative
+    display: inline-block
+    top: 103%
+    width: 10%
+    color: green
+    height: 0
+
+  .hue-grad:after
+    content: "Hinduism"
+    position: relative
+    display: inline-block
+    text-align: right
+    top: 3%
+    width: 100%
+    height: 0
+    color: rgb(255,128, 0)
+
+  .sat-grad
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), white)
+    height: 100%
+    width: 100%
+
+  .sat-grad:before
+    content: "Contemplative"
+    position: relative
+    display: inline-block
+    top: 0%
+    width: 100%
+    text-align: right
+    right: 103%
+    color: $light-gray
+    height: 0
+
+  .sat-grad:after
+    content: "Dogmatic"
+    position: relative
+    display: inline-block
+    top: 93%
+    width: 100%
+    text-align: right
+    right: 103%
+    color: $dark-gray
+    height: 0

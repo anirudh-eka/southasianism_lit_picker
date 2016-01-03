@@ -1,14 +1,14 @@
 p {
   margin: 1em 0;
   line-height: 1.635em;
-  font-size: 1.1em; }
+  /*font-size: 1.1em */ }
 
 h1, h2 {
   font-weight: 300;
   text-align: center; }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.82em;
   margin-bottom: 1em;
   font-family: Open Sans, Helvetica, sans-serif;
   font-weight: 300; }
@@ -17,7 +17,7 @@ h1 {
     color: #45A39A; }
 
 body {
-  font: 1.4em Cardo, Georgia, Cambria, "Times New Roman", Times, serif;
+  font: 24.6px Cardo, Georgia, Cambria, "Times New Roman", Times, serif;
   color: #333;
   background-color: white;
   overflow: initial;
@@ -34,7 +34,7 @@ body {
     body {
       width: 100%; } }
   body #container {
-    width: 39em;
+    width: 35.46em;
     margin: auto; }
     @media screen and (max-width: 1024px) {
       body #container {
@@ -78,66 +78,70 @@ body {
   color: #757C7A;
   margin: 2.2em 0em; }
 
-#hue-grad {
-  border: 0.1px solid gray;
-  height: 350px;
-  width: 350px;
-  background: linear-gradient(to right, green, #ff8000);
-  margin: auto; }
+.color-picker-container {
+  padding: 2em;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-weight: 300; }
+  .color-picker-container .color-picker-canvas-container, .color-picker-container .color-picker-info-container {
+    display: inline-block;
+    width: 48%; }
+  .color-picker-container .color-picker-canvas-container {
+    margin-right: 3%; }
+  .color-picker-container .color-picker-info-container {
+    font-size: 0.8em;
+    vertical-align: top; }
 
-#hue-grad:before {
-  content: "Islam";
-  position: relative;
-  display: inline-block;
-  top: 103%;
-  width: 10%;
-  color: green;
-  height: 0; }
-
-#hue-grad:after {
-  content: "Hinduism";
-  position: relative;
-  display: inline-block;
-  text-align: right;
-  top: 3%;
-  width: 100%;
-  height: 0;
-  color: #ff8000; }
-
-#sat-grad {
-  background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
-  height: 100%;
-  width: 100%; }
-
-#sat-grad:before {
-  content: "Contemplative";
-  position: relative;
-  display: inline-block;
-  top: 0%;
-  width: 100%;
-  text-align: right;
-  right: 103%;
-  color: #A5ADA9;
-  height: 0; }
-
-#sat-grad:after {
-  content: "Dogmatic";
-  position: relative;
-  display: inline-block;
-  top: 93%;
-  width: 100%;
-  text-align: right;
-  right: 103%;
-  color: #757C7A;
-  height: 0; }
-
-#color-picker-container {
-  padding: 2em; }
-
-#color-picker-canvas-container {
+.color-picker-canvas-container {
   display: block;
+  min-width: 360px;
   width: 400px;
-  height: 400px;
-  margin: auto; }
+  height: 400px; }
+  .color-picker-canvas-container .hue-grad {
+    border: 0.1px solid gray;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, green, #ff8000);
+    margin: auto; }
+  .color-picker-canvas-container .hue-grad:before {
+    content: "Islam";
+    position: relative;
+    display: inline-block;
+    top: 103%;
+    width: 10%;
+    color: green;
+    height: 0; }
+  .color-picker-canvas-container .hue-grad:after {
+    content: "Hinduism";
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    top: 3%;
+    width: 100%;
+    height: 0;
+    color: #ff8000; }
+  .color-picker-canvas-container .sat-grad {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
+    height: 100%;
+    width: 100%; }
+  .color-picker-canvas-container .sat-grad:before {
+    content: "Contemplative";
+    position: relative;
+    display: inline-block;
+    top: 0%;
+    width: 100%;
+    text-align: right;
+    right: 103%;
+    color: #A5ADA9;
+    height: 0; }
+  .color-picker-canvas-container .sat-grad:after {
+    content: "Dogmatic";
+    position: relative;
+    display: inline-block;
+    top: 93%;
+    width: 100%;
+    text-align: right;
+    right: 103%;
+    color: #757C7A;
+    height: 0; }
 
 /*# sourceMappingURL=main.css.map */
