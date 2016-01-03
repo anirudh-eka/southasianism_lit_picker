@@ -1,7 +1,10 @@
+.l-text-align-right, .color-picker-container .color-picker-info-container .link {
+  text-align: right;
+  display: block; }
+
 p {
   margin: 1em 0;
-  line-height: 1.635em;
-  /*font-size: 1.1em */ }
+  line-height: 1.635em; }
 
 h1, h2 {
   font-weight: 300;
