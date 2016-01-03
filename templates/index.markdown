@@ -10,6 +10,7 @@ The color picker below is a model to explore the meshing between these two relig
     </div>
   </div>
   <div class="color-picker-info-container">
+  	<h1>Vertical Axis</h1>
   	<p>The <em>saturation</em> level on the verticle axis mesures the philosophical nature of the quotations.</p>
 
   	<p> Where the saturation is highest, you will notice the text is instructional dictating what rituals followers should perform, what clothes they should wear, and other outward activities. As the saturation declines towards white, the text becomes less dictatorial and more phylosophical engaging the rational mind.</p>
