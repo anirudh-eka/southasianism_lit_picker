@@ -19,7 +19,6 @@ The color picker below is a model to explore the meshing between these two relig
 </div>
 
 ## Understanding the Axis
-
 The *saturation* level on the verticle axis mesures the philosophical nature of the quotations. Where the saturation is highest, you will notice the text is instructional dictating what rituals followers should perform, what clothes they should wear, and other outward activities. As the saturation declines towards white, the text becomes less dictatorial and more phylosophical engaging the rational mind.
 
 The *hue* on the horizontal axis measures the religious origin of the quotations. On the extremes lie green and saffron corresponding to Islam and Hinduism, respectively. here, the quotes are in the context of purely Islam or Hinduism. As the hue enters the meshing point between these two, the text is authored by other traditions that have been influenced from both religions, such as Sikhism. 

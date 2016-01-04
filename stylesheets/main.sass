@@ -24,11 +24,13 @@ $light-gray: #A5ADA9
     .link
       @extend .l-text-align-right
 
+
 .color-picker-canvas-container
   display: block
   min-width: 360px
   width: 400px
   height: 400px
+  cursor: pointer
 
   .hue-grad
     border: 0.1px solid gray
@@ -82,3 +84,7 @@ $light-gray: #A5ADA9
     right: 103%
     color: $dark-gray
     height: 0
+
+  .color-picker-pointer
+    position: relative
+    cursor: pointer
