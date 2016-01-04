@@ -2,9 +2,16 @@
 <head>
 <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/mustache/mustache.min.js"></script>
+<script src="bower_components/mustache.js/mustache.min.js"></script>
+<script type="text/javascript" src="javascripts/main.js"></script>
 </head>
 <body>
+	
+  {% for partial in color_picker_info_partials %}	
+	  <script id="color-picker-{{ partial[0] }}">
+		{{ partial[1] }}
+	  </script>
+  {% endfor %}
   <div id="container">
     <h1><a href="#">Explore South Asian Spirtuality</a></h1>
     <div class="post">
