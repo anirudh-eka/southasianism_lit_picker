@@ -9,7 +9,7 @@
 <body>
 	
   {% for partial in color_picker_info_partials %}	
-	  <script id="color-picker-{{ partial[0] }}">
+	  <script id="color-picker-{{ partial[0] }}" type="x-tmpl-mustache">
 		{{ partial[1] }}
 	  </script>
   {% endfor %}

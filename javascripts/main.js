@@ -1,6 +1,20 @@
 $(function() {
-  var template = $('#color-picker-welcome').html();
-  // Mustache.parse(template);   // optional, speeds up future uses
-  // var rendered = Mustache.render(template, {name: "Luke"});
-  $('.color-picker-info-container').html(template);
+
+  initColorPickerInfo();
+
 });
+
+var initColorPickerInfo = function(){
+  updateColorPickerInfoContainer("welcome");
+
+  $(".color-picker-info-container").on('click', "a", function(e){
+  	e.preventDefault();
+  	var partialName = $(this).attr('href').replace(/[#]/, "");	
+  	updateColorPickerInfoContainer(partialName);	
+  });
+
+  function updateColorPickerInfoContainer(partialName) {
+	var content = $("#color-picker-"+partialName).html();
+	$('.color-picker-info-container').html(content);
+  }
+}
