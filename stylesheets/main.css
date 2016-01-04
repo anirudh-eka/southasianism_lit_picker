@@ -19,6 +19,10 @@ h1 {
     text-decoration: none;
     color: #45A39A; }
 
+/*code block styling */
+code {
+  font-size: 0.78em; }
+
 body {
   font: 24.6px Cardo, Georgia, Cambria, "Times New Roman", Times, serif;
   color: #333;
@@ -27,12 +31,9 @@ body {
   overflow-x: hidden;
   text-align: left;
   width: 100%; }
-  @media screen and (max-width: 1024px) {
-    body {
-      font-size: 1.4em; } }
   @media screen and (max-width: 500px) {
     body {
-      font-size: 1em; } }
+      font-size: 17.6px; } }
   @media screen and (max-width: 1024px) {
     body {
       width: 100%; } }
