@@ -7,6 +7,10 @@ The color picker below is a model to explore the meshing between these two relig
     <div class="hue-grad">
       <div class="sat-grad">
       </div>
+      <div class="x-axis-labels">
+        <span class="x-min">Islam</span>
+        <span class="x-max">Hinduism</span>
+      </div>
     </div>
   </div>
   <div class="color-picker-info-container">
