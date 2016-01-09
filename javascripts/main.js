@@ -22,9 +22,7 @@ var initColorPickerCanvas = function() {
   $('.color-picker-canvas-container').click(function(e) {
     var posX = e.pageX - $(this).offset().left
     var posY = e.pageY - $(this).offset().top;
-       
     updateColorPickerPointer(posX, posY);
-
   });
 
   function updateColorPickerPointer(posX, posY) {
