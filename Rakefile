@@ -19,7 +19,7 @@ end
 
 def compile_markup
   Liquid::Template.file_system = Liquid::LocalFileSystem.new("../anirudh-eka.github.io/_includes")
-  nav = File.open("../anirudh-eka.github.io/_includes/navigation.html")
+  # nav = File.open("../../anirudh-eka.github.io/_includes/navigation.html")
   layout = File.open("templates/layout.html", "r")
   
   sh %{ mkdir templates/temp }

@@ -1,6 +1,7 @@
 $(function() {
   initColorPickerInfo();
   initColorPickerCanvas();
+  console.log(PS)
 });
 
 var initColorPickerInfo = function(){
