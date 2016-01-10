@@ -38,4 +38,4 @@ pointDiff (Point p1) (Point p2) = Just (sqrt (((p1.x - p2.x) * (p1.x - p2.x)) + 
 
 main :: forall e. Eff (console :: CONSOLE | e) Unit
 main = do
-  log "nada"
+  log "Purescript Loaded."

@@ -244,7 +244,7 @@ var PS = { };
           throw new Error("Failed pattern match at Main line 34, column 1 - line 35, column 1: " + [ v.constructor.name, v1.constructor.name ]);
       };
   };
-  var main = Control_Monad_Eff_Console.log("nada");
+  var main = Control_Monad_Eff_Console.log("Purescript Loaded.");
   var lessThan = function (p1) {
       return function (p2) {
           return function (given) {

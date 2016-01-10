@@ -13,8 +13,14 @@ task :compile, [:option] do |t, args|
   else
     sh %{ sass stylesheets/main.sass stylesheets/main.css }
     sh %{ rm stylesheets/*.map }
-    compile_markup
+    compile_js
+    compile_markup 
   end
+end
+
+
+def compile_js
+  sh %{ cd javascripts/purescripts/ && pulp build -O --to output.js && cd ../.. }
 end
 
 def compile_markup
