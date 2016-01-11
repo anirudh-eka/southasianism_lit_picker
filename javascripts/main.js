@@ -24,6 +24,9 @@ var initColorPickerCanvas = function() {
     var posX = e.pageX - $(this).offset().left
     var posY = e.pageY - $(this).offset().top;
     updateColorPickerPointer(posX, posY);
+    console.log({x: posX, y: posY});
+    var currentPoint = PS.Main.findNearestPoint({x: posX, y: posY})([{x: 4, y: 5}, {x: 1, y: 2}, {x: 3, y: 6}]).value0
+    console.log(currentPoint);
   });
 
   function updateColorPickerPointer(posX, posY) {

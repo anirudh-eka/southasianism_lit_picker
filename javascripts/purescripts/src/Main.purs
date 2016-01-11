@@ -10,9 +10,9 @@ import Math (sqrt)
 data Point = Point PointObj | NoPoint
 type PointObj = { x :: Number, y :: Number }
 
-showPoint :: Point -> String
-showPoint NoPoint = "No point!"
-showPoint (Point p) = "(" ++ show p.x ++ ", " ++ show p.y ++ ")"
+instance showPoint :: Show Point where 
+	show (Point p) = "(" ++ show p.x ++ ", " ++ show p.y ++ ")"
+	show NoPoint = "No point!"
 
 toPoint :: PointObj -> Point
 toPoint obj = Point obj

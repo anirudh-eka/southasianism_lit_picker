@@ -221,15 +221,15 @@ var PS = { };
   var toPoint = function (obj) {
       return new Point(obj);
   };
-  var showPoint = function (v) {
-      if (v instanceof NoPoint) {
-          return "No point!";
-      };
+  var showPoint = new Prelude.Show(function (v) {
       if (v instanceof Point) {
           return "(" + (Prelude.show(Prelude.showNumber)(v.value0.x) + (", " + (Prelude.show(Prelude.showNumber)(v.value0.y) + ")")));
       };
-      throw new Error("Failed pattern match at Main line 13, column 1 - line 14, column 1: " + [ v.constructor.name ]);
-  };
+      if (v instanceof NoPoint) {
+          return "No point!";
+      };
+      throw new Error("Failed pattern match at Main line 13, column 1 - line 17, column 1: " + [ v.constructor.name ]);
+  });
   var pointDiff = function (v) {
       return function (v1) {
           if (v1 instanceof NoPoint) {
