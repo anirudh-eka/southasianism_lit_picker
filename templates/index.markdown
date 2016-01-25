@@ -2,7 +2,7 @@ On paper Hinduism and Islam couldn't be more different. The former boasts a pant
 
 The color picker below is a model to explore the meshing between these two religions at different layers. Click on various points in the color picker to discover quotes from scholars, poets, mystics, and religious texts from Islam, Hinduism and the traditions in-between!
 
-<div class="color-picker-container">
+<figure class="color-picker-container">
   <div class="color-picker-canvas-container">
     <div class="hue-grad">
       <div class="sat-grad">
@@ -20,7 +20,7 @@ The color picker below is a model to explore the meshing between these two relig
   	<p> Where the saturation is highest, you will notice the text is instructional dictating what rituals followers should perform, what clothes they should wear, and other outward activities. As the saturation declines towards white, the text becomes less dictatorial and more phylosophical engaging the rational mind.</p>
 	   <p class="link"><a href="#">Explain Axes &#8594;</a></p>
   </div>
-</div>
+</figure>
 
 
 
