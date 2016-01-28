@@ -8,8 +8,8 @@ The color picker below is a model to explore the meshing between these two relig
       <div class="sat-grad">
       </div>
       <div class="x-axis-labels">
-        <span class="x-min"><img src="images/crescent_star.svg" alt="Islam"/></span>
-        <span class="x-max"><img src="images/om.svg" alt="Hinduism"/></span>
+        <span class="x-min"><img class="emoji" src="images/crescent_star.svg" alt="Islam"/></span>
+        <span class="x-max"><img class="emoji" src="images/om.svg" alt="Hinduism"/></span>
       </div>
     </div>
   </div>

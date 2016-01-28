@@ -110,10 +110,11 @@ body {
     width: 100%;
     background: linear-gradient(to right, green, #ff8000);
     margin: auto; }
+  .color-picker-canvas-container .emoji, .color-picker-canvas-container .sat-grad:before, .color-picker-canvas-container .sat-grad:after {
+    height: 1.8em;
+    width: 1.8em; }
   .color-picker-canvas-container .x-axis-labels {
-    padding-top: 10px; }
-    .color-picker-canvas-container .x-axis-labels img {
-      height: 2em; }
+    padding-top: 15px; }
   .color-picker-canvas-container .x-min {
     float: left;
     color: green; }
@@ -130,15 +131,13 @@ body {
     position: absolute;
     display: block;
     left: -15%;
-    width: 2em;
     opacity: 0.55; }
   .color-picker-canvas-container .sat-grad:after {
     content: url("../images/exclamation_mark.svg");
     position: absolute;
     display: block;
     left: -15%;
-    top: 88%;
-    width: 2em; }
+    top: 88%; }
   .color-picker-canvas-container .color-picker-pointer {
     position: relative;
     cursor: pointer; }

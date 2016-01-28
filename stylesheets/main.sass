@@ -39,11 +39,12 @@ $light-gray: #A5ADA9
     background: linear-gradient(to right, green, rgb(255,128, 0))
     margin: auto
 
-  .x-axis-labels
-    padding-top: 10px
+  .emoji
+    height: 1.8em
+    width: 1.8em
 
-    img
-      height: 2em
+  .x-axis-labels
+    padding-top: 15px
 
   .x-min
     float: left
@@ -60,20 +61,20 @@ $light-gray: #A5ADA9
     width: 100%
 
   .sat-grad:before
+    @extend .emoji
     content: url("../images/question_mark.svg")
     position: absolute
     display: block
     left: -15%
-    width: 2em
     opacity: 0.55
 
   .sat-grad:after
+    @extend .emoji
     content: url("../images/exclamation_mark.svg")
     position: absolute
     display: block
     left: -15%
     top: 88%
-    width: 2em
 
   .color-picker-pointer
     position: relative
