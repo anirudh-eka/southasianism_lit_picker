@@ -111,7 +111,9 @@ body {
     background: linear-gradient(to right, green, #ff8000);
     margin: auto; }
   .color-picker-canvas-container .x-axis-labels {
-    padding-top: 5px; }
+    padding-top: 10px; }
+    .color-picker-canvas-container .x-axis-labels img {
+      height: 2em; }
   .color-picker-canvas-container .x-min {
     float: left;
     color: green; }
