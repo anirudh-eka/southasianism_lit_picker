@@ -125,25 +125,19 @@ body {
     height: 100%;
     width: 100%; }
   .color-picker-canvas-container .sat-grad:before {
-    content: "Contemplative";
+    content: url("../images/question_mark.svg");
     position: relative;
-    display: inline-block;
-    top: 0%;
-    width: 100%;
-    text-align: right;
-    right: 103%;
-    color: #A5ADA9;
-    height: 0; }
+    display: block;
+    left: -15%;
+    width: 2em;
+    opacity: 0.55; }
   .color-picker-canvas-container .sat-grad:after {
-    content: "Dogmatic";
+    content: url("../images/exclamation_mark.svg");
     position: relative;
-    display: inline-block;
-    top: 93%;
-    width: 100%;
-    text-align: right;
-    right: 103%;
-    color: #757C7A;
-    height: 0; }
+    display: block;
+    left: -15%;
+    top: 74%;
+    width: 2em; }
   .color-picker-canvas-container .color-picker-pointer {
     position: relative;
     cursor: pointer; }
