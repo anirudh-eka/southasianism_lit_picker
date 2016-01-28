@@ -122,21 +122,22 @@ body {
     color: #ff8000; }
   .color-picker-canvas-container .sat-grad {
     background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
+    position: relative;
     height: 100%;
     width: 100%; }
   .color-picker-canvas-container .sat-grad:before {
     content: url("../images/question_mark.svg");
-    position: relative;
+    position: absolute;
     display: block;
     left: -15%;
     width: 2em;
     opacity: 0.55; }
   .color-picker-canvas-container .sat-grad:after {
     content: url("../images/exclamation_mark.svg");
-    position: relative;
+    position: absolute;
     display: block;
     left: -15%;
-    top: 74%;
+    top: 88%;
     width: 2em; }
   .color-picker-canvas-container .color-picker-pointer {
     position: relative;
